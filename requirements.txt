@@ -1,14 +1,21 @@
+# 🏦 套利系统 - Railway兼容依赖版本
+# 修复了 aiohttp 和 yarl 版本冲突
+
+# Web框架
 fastapi==0.103.2
 uvicorn[standard]==0.23.2
 websockets==11.0.3
 
-# Railway Python 3.11 兼容版本
+# 异步HTTP客户端（Railway Python 3.11 兼容版本）
 aiohttp==3.11.12
-yarl==1.9.2
+yarl>=1.17.0,<2.0  # 关键修复：放宽yarl版本
 multidict==6.0.2
 frozenlist==1.4.0
 
+# 交易所API和数据库
 ccxt==4.1.12
 aiosqlite==0.18.0
+
+# 工具库
 python-dotenv==1.0.0
 psutil==5.9.5
