@@ -25,19 +25,6 @@ Railway隐藏式双服务，webs隐藏在http之内
 4. 选择此仓库
 5. Railway会自动部署
 
-## ⚙️ 环境变量配置
-在Railway项目设置中添加：
-
-| 变量名 | 说明 | 是否必需 |
-|--------|------|----------|
-| `PORT` | 服务器端口 | ✅ Railway自动设置 |
-| `ACCESS_PASSWORD` | 访问密码 | ❌ 可选 |
-| `BINANCE_API_KEY` | 币安API密钥 | ❌ 交易需要 |
-| `BINANCE_API_SECRET` | 币安API密钥 | ❌ 交易需要 |
-| `OKX_API_KEY` | OKX API密钥 | ❌ 交易需要 |
-| `OKX_API_SECRET` | OKX API密钥 | ❌ 交易需要 |
-| `OKX_PASSPHRASE` | OKX Passphrase | ❌ 交易需要 |
-
 ## 📡 API接口
 
 ### 主要端点
